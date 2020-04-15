@@ -33,6 +33,4 @@ class ApplicationController < Sinatra::Base
     session.clear
     erb :index
   end
-
-
 end
